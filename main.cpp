@@ -1,9 +1,9 @@
 #include "HC-SR04.h"
 #include "mbed.h"
 
-//echo    >> D5
-//trigger >> D6
-HCSR04 ultrasonic(D5, D6);
+//echo    >> D6
+//trigger >> D5
+HCSR04 ultrasonic(D6, D5);
 
 int main()
 {
